@@ -1410,27 +1410,6 @@ color:#DD614A ;
   color: white;
 }
  
-.wrapper{
-	position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 550px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 5px;
-}
-
-.wrapper .input {
-    width: 85%;
-    padding: 15px 20px;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-
 }
 
 
