@@ -523,8 +523,64 @@ color:#DD614A ;
 /*Mads*/
 /*Claudia*/
 
+.hero-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border: 1px solid #faedcd;
+  padding: 12px 34px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  background-color: #faedcd;
+  border-radius: 25px;
+  margin-left: 125px;
+  margin-top: 50px;
+}
+
+.hero-btn:hover{
+  border: 1px solid #f1e1b6;
+  background: #f1e1b6;
+  transition: 1s;
+}
 
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  margin: auto;
+  width: 400px;
+}
+
+#main img {
+  width: 400px;
+}
+
+#main h1 {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+
+@media(max-width: 650px)  {
+  
+  .h1 {
+    font-size: 1px;
+    color:black !important
+  }
+  
+  .monitor {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  }
 
 
 
