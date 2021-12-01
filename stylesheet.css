@@ -780,6 +780,11 @@ color:#DD614A ;
 /*Lasse*/
 
 
+.baggrund {
+background-repeat: no-repeat;
+position: absolute;
+}
+
 
 
 
