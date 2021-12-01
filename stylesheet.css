@@ -70,6 +70,240 @@ html, body {
   
 }
 
+.container {
+min-height: 100%;
+
+}
+
+.main {
+  overflow: auto;
+  padding-bottom: 100px;
+}
+
+.overskrift {
+color: white; 
+text-transform: uppercase;
+font-size: 25px;
+padding-top: 15px;
+padding-bottom: 15px;
+
+}
+
+.brødtekst {
+
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+#footer {
+
+  padding: 40px 0;
+  background-color:#FAEDCD; 
+  position: relative;
+  margin-top: auto;
+  height: 200px;
+  margin-top: -100px ;
+  clear: both;
+  
+
+}
+
+#footer .social { /* Sociale medier ikoner*/
+text-align: center;
+padding-bottom: 25px;
+color: #DD614A;
+
+}
+
+#footer .social a {  /* Sociale medier ikoner*/
+
+font-size: 24px;
+color: inherit;
+border: 1px solid white ;
+width: 40px;
+height: 40px;
+line-height: 38px;
+display: inline-block;
+text-align: center;
+border-radius: 50%;
+margin: 0 8px;
+opacity: 0.75;
+
+}
+
+#footer .social a:hover {
+
+  opacity: 0.9;
+
+}
+
+#footer ul { /* Teksten*/
+margin-top: 0;
+padding: 0;
+color: #333; 
+list-style: none;
+font-size: 18px;
+line-height: 1.6;
+margin-bottom: 0; 
+text-align: center;
+
+}
+
+#footer ul li a {
+
+color: inherit;
+text-decoration: none;
+opacity: 0.8;
+
+}
+
+#footer ul li {
+
+display: inline-block;
+padding: 0 15px;
+
+}
+
+#footer ul li a:hover {
+opacity: 1;
+}
+
+#footer .copyright {
+margin-top: 15px;
+text-align: center;
+font-size: 13px;
+color:#DD614A ;
+
+}
+
+
+
+
+@media only screen and (min-width: 769px) {
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-header {
+    display: block;
+  }
+
+  .flex-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+  }
+
+  .nav-links {
+    height: auto;
+  }
+
+  ul {
+    text-align: center;
+  }
+
+  .nav-link {
+    display: inline-block;
+    border-bottom: none;
+  }
+
+  .nav-links span {
+    padding: 8px 15px;
+    border-radius: 4px;
+  }
+
+  .logo {
+    height: 50px;
+    width: 160px; 
+  }
+
+
+    
+}
+
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+
+
+
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  
+body{
+  font-family: montserrat;
+}
+nav{
+  background: #FAEDCD;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color:#DD614A;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{ /* Tekst i navbaren ved stor skærm*/
+  color: black;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #DD614A;
+  transition: .5s;
+}
+.checkbtn{ /* Burger knappen*/
+  font-size: 30px;
+  color: #DD614A;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+
+
+/* Indholdet til body*/
+
+
+html, body {
+  font-family: "Poppins", serif;
+  color: rgb(214, 214, 214);
+  background-color: #DD614A;
+  min-height: 100vh;
+  height: 100%;
+  
+}
+
 #container {
 min-height: 100%;
 
@@ -232,9 +466,6 @@ color:#DD614A ;
     font-size: 16px;
   }
 }
-
-
-
 @media (max-width: 858px){
   .checkbtn{
     display: block;
@@ -249,6 +480,37 @@ color:#DD614A ;
     text-align: center;
     transition: all .5s;
   }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{ /* hover i burger menuen*/
+    background: none;
+    color:#FAEDCD ;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+
+}
+
+
+.tekst {
+
+  color: white;
+  padding-top: 50px;
+}
+
+.brødtekst2 {
+
+  color: white;
+}
+
+
   nav ul li{
     display: block;
     margin: 50px 0;
