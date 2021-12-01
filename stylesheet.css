@@ -232,6 +232,9 @@ color:#DD614A ;
     font-size: 16px;
   }
 }
+
+
+
 @media (max-width: 858px){
   .checkbtn{
     display: block;
@@ -1041,7 +1044,6 @@ color:#DD614A ;
     transform: translate(-50%, -50%);
     max-width: 550px;
     width: 100%;
-    padding: 15px;
     display: flex;
     justify-content: space-between;
     border-radius: 5px;
@@ -1053,6 +1055,14 @@ color:#DD614A ;
     border: none;
     border-radius: 5px;
     font-weight: bold;
+}
+
+.overskrift {
+
+text-align: center;
+font-size: 40px;
+padding: 130px;
+
 }
 
 
